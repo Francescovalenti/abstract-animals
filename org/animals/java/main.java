@@ -7,6 +7,11 @@ public class main {
         System.out.println(cagnolino.mangiaAnimale());
         System.out.println(cagnolino.versoAnimale());
         System.out.println(cagnolino.getDormi());
+
+        Aquila Aquilotto = new Aquila("Aquila reale", "dream america", "zzz", "Stridisce", "Carne");
+        System.out.println(Aquilotto.mangiaAnimale());
+        System.out.println(Aquilotto.versoAnimale());
+        System.out.println(Aquilotto.getDormi());
         
     }
     
