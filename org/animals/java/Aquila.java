@@ -1,6 +1,6 @@
 package org.animals.java;
 
-public class Aquila extends Animali{
+public class Aquila extends Animali implements Volare{
     private String Stridisce;
     private String Carne;
 
@@ -21,5 +21,11 @@ public class Aquila extends Animali{
     public String mangiaAnimale()
     {
         return this.Carne;
+    }
+
+    @Override
+
+    public void faiVolare(){
+         System.out.println("Usa le ali");
     }
 }

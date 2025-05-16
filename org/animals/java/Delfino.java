@@ -1,6 +1,6 @@
 package org.animals.java;
 
-public class Delfino extends Animali {
+public class Delfino extends Animali implements Nuotante {
     public String SuoniAcuti ;
     public String Pesci;
 
@@ -19,6 +19,12 @@ public class Delfino extends Animali {
 
     public String mangiaAnimale() {
         return this.Pesci;
+    }
+
+    @Override
+
+    public void faiNuoto(){
+        System.out.println("usa le pinne");
     }
 
 }

@@ -12,17 +12,18 @@ public class main {
         System.out.println(Aquilotto.mangiaAnimale());
         System.out.println(Aquilotto.versoAnimale());
         System.out.println(Aquilotto.getDormi());
+        Aquilotto.faiVolare();
 
         Passerotto Uccellino = new Passerotto("Passera d'italia", "Uccellino", "zzz", "Cingutta", "Onnivoro");
         System.out.println(Uccellino.mangiaAnimale());
         System.out.println(Uccellino.versoAnimale());
         System.out.println(Uccellino.getDormi());
-
+        Uccellino.faiVolare();
         Delfino Delfo = new Delfino("tursiope", "flipper", "zzz", "SuoniAcuti", "Pesci");
         System.out.println(Delfo.mangiaAnimale());
         System.out.println(Delfo.versoAnimale());
         System.out.println(Delfo.getDormi());
-
+        Delfo.faiNuoto();
         
 
 

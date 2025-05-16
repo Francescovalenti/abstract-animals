@@ -1,6 +1,6 @@
 package org.animals.java;
 
-public class Passerotto extends Animali {
+public class Passerotto extends Animali implements Volare {
    private String Cinguetta;
     private String Onnivoro;
 
@@ -20,5 +20,9 @@ public class Passerotto extends Animali {
 public String mangiaAnimale(){
     return this.Onnivoro;
 }
-    
+@Override
+
+public void faiVolare(){
+    System.out.println("usa delle piccole ali");
+}
 }
