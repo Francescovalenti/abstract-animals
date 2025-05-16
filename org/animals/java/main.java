@@ -17,7 +17,16 @@ public class main {
         System.out.println(Uccellino.mangiaAnimale());
         System.out.println(Uccellino.versoAnimale());
         System.out.println(Uccellino.getDormi());
-        
+
+        Delfino Delfo = new Delfino("tursiope", "flipper", "zzz", "SuoniAcuti", "Pesci");
+        System.out.println(Delfo.mangiaAnimale());
+        System.out.println(Delfo.versoAnimale());
+        System.out.println(Delfo.getDormi());
+
         
 
+
+        
+
+}
 }
