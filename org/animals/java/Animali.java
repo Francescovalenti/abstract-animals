@@ -15,8 +15,8 @@ public abstract class Animali {
         return this.Dormi;
     }
 
-    public void setDormi(String dormi) {
-        this.Dormi = Dormi;
+    public void Dormi() {
+       System.out.println("zzzzzzzzzzzzz");
     }
 
     public String getRazza() {
@@ -35,7 +35,9 @@ public abstract class Animali {
         this.nome = nome;
     }
 
-    public abstract String versoAnimale();
+    public abstract String versoAnimale(
+
+    );
 
     public abstract String mangiaAnimale();
 
