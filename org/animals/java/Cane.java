@@ -4,8 +4,8 @@ public class Cane extends Animali{
    private String Croccantini;
    private String Abbaia;
     
-public Cane(String razza,String nome,String dormi,String Croccantini,String Abbaia){
-    super(razza, nome, dormi);
+public Cane(String razza,String nome,String Croccantini,String Abbaia){
+    super(razza, nome);
     this.Croccantini=Croccantini;
     this.Abbaia=Abbaia;
     
@@ -25,6 +25,12 @@ return this.Croccantini;
 
 
 }
+
+    @Override
+  
+          public void dormi(){
+        System.out.println("ZZZZzzzZZZzzzZZZ!");
+    }
 
 }
 

@@ -2,27 +2,27 @@ package org.animals.java;
 
 public class main {
     public static void main(String[] args) {
-        Cane cagnolino = new Cane("pastore tedesco", "Rex", "zzz", "Croccatini", "Abbaia");
+        Cane cagnolino = new Cane("pastore tedesco", "Rex", "Croccatini", "Abbaia");
 
         System.out.println(cagnolino.mangiaAnimale());
         System.out.println(cagnolino.versoAnimale());
-        System.out.println(cagnolino.getDormi());
+        cagnolino.dormi();
 
-        Aquila Aquilotto = new Aquila("Aquila reale", "dream america", "zzz", "Stridisce", "Carne");
+        Aquila Aquilotto = new Aquila("Aquila reale", "dream america","Stridisce", "Carne");
         System.out.println(Aquilotto.mangiaAnimale());
         System.out.println(Aquilotto.versoAnimale());
-        System.out.println(Aquilotto.getDormi());
+        Aquilotto.dormi();
         Aquilotto.faiVolare();
 
-        Passerotto Uccellino = new Passerotto("Passera d'italia", "Uccellino", "zzz", "Cingutta", "Onnivoro");
+        Passerotto Uccellino = new Passerotto("Passera d'italia", "Uccellino", "Cingutta", "Onnivoro");
         System.out.println(Uccellino.mangiaAnimale());
         System.out.println(Uccellino.versoAnimale());
-        System.out.println(Uccellino.getDormi());
+        Uccellino.dormi();
         Uccellino.faiVolare();
-        Delfino Delfo = new Delfino("tursiope", "flipper", "zzz", "SuoniAcuti", "Pesci");
+        Delfino Delfo = new Delfino("tursiope", "flipper", "SuoniAcuti", "Pesci");
         System.out.println(Delfo.mangiaAnimale());
         System.out.println(Delfo.versoAnimale());
-        System.out.println(Delfo.getDormi());
+        Delfo.dormi();
         Delfo.faiNuoto();
         
 

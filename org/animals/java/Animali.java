@@ -3,18 +3,20 @@ package org.animals.java;
 public abstract class Animali {
     private String razza;
     private String nome;
-   
+     
 
-    public Animali(String razza, String nome, String Dormi) {
+    public Animali(String razza, String nome ) {
         this.razza = razza;
         this.nome = nome;
-        
+     
     }
 
+   
 
-    public void Dormi() {
-       System.out.println("zzzzzzzzzzzzz");
-    }
+      public void dormi(){
+        System.out.println("ZZZZzzzZZZzzzZZZ!");
+      }
+    
 
     public String getRazza() {
         return this.razza;

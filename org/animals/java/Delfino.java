@@ -4,8 +4,8 @@ public class Delfino extends Animali implements Nuotante {
     public String SuoniAcuti ;
     public String Pesci;
 
-    public Delfino (String razza, String nome, String Dormi,String SuoniAcuti,String Pesci){
-        super(razza, nome, Dormi);
+    public Delfino (String razza, String nome,String SuoniAcuti,String Pesci){
+        super(razza, nome );
         this.SuoniAcuti=SuoniAcuti;
         this.Pesci=Pesci;
     }
@@ -26,5 +26,10 @@ public class Delfino extends Animali implements Nuotante {
     public void faiNuoto(){
         System.out.println("usa le pinne");
     }
-
+      @Override
+  
+          public void dormi(){
+        System.out.println("ZZZZzzzZZZzzzZZZ!");
+    }
+    
 }
