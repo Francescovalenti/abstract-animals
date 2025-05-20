@@ -3,17 +3,14 @@ package org.animals.java;
 public abstract class Animali {
     private String razza;
     private String nome;
-    private String Dormi;
+   
 
     public Animali(String razza, String nome, String Dormi) {
         this.razza = razza;
         this.nome = nome;
-        this.Dormi = Dormi;
+        
     }
 
-    public String getDormi() {
-        return this.Dormi;
-    }
 
     public void Dormi() {
        System.out.println("zzzzzzzzzzzzz");
